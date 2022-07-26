@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        .item-name {
+            font-weight: bold;
+            color: #ef5e46;
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+        
+        .item-price {
+            color: #e4504a;
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        
+        .item-container {
+            width: 300px;
+            /* padding: 15px; */
+            margin: 5px 15px;
+            float: left;
+            transition: all 0.4s;
+            height: 480px;
+            text-align: center;
+            background: linear-gradient(to bottom, #edecec 50%, #ffffff 50%) bottom;
+            background-size: 100% 200%
+        }
+        
+        .item-container:hover {
+            box-shadow: 1px 2px 2px 2px black;
+            transform: scale(1.03);
+            background: linear-gradient(to bottom, #edecec 50%, #edecec 50%) bottom;
+        }
+        
+        .item-container:hover .item-order {
+            border: 1px solid #707070;
+            box-shadow: 0px 0px 4px 3px #c5c1c1;
+            background-position: top;
+        }
+        
+        .item-discription {
+            font-style: italic;
+            font-size: 16px;
+        }
+        
+        .item-order {
+            margin-top: 10px;
+            color: white;
+            background-color: #ffffff;
+            border: none;
+            padding: 6px 18px 6px 18px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            font-size: 20px;
+            border-radius: 4px;
+        }
+        
+        .item-images {
+            width: 200px;
+        }
+        
+        #main-div {
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-div">
+        <div class="item-container">
+            <img class="item-images" src="images/burger1.png">
+            <div class="item-name">Double Burger</div>
+            <div class="item-discription">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <div class="item-price">$25.00</div>
+            <button class="item-order">Order Now</button>
+        </div>
+        <div class="item-container">
+            <img class="item-images" src="images/burger2.png">
+            <div class="item-name">Chicken Burger</div>
+            <div class="item-discription">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <div class="item-price">$9.50</div>
+            <button class="item-order">Order Now</button>
+        </div>
+        <div class="item-container">
+            <img class="item-images" src="images/burger3.png">
+            <div class="item-name">Mexican Burger</div>
+            <div class="item-discription">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <div class="item-price">$12.50</div>
+            <button class="item-order">Order Now</button>
+        </div>
+        <div class="item-container">
+            <img class="item-images" src="images/burger4.png">
+            <div class="item-name">Mini Burger</div>
+            <div class="item-discription">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <div class="item-price">$10.90</div>
+            <button class="item-order">Order Now</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
