@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Sales-Table
+    </title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .table-caption {
+            text-align: left;
+            background-color: rgb(0, 0, 46);
+            color: #fff;
+            font-size: 20px;
+            padding: 5px;
+            font-weight: bold;
+        }
+        
+        .table-container {
+            width: 100%;
+            text-align: left;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sales Table</h1>
+    <div>
+        <table class="table-container">
+            <caption class="table-caption">South</caption>
+            <thead>
+                <tr>
+                    <th>Salesman</th>
+                    <th>Mobile</th>
+                    <th>Actual Sales</th>
+                    <th>Expected Sales</th>
+                    <th>Returns</th>
+                    <th>Remarks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>293283923</td>
+                    <td>401000.00</td>
+                    <td>505000.00</td>
+                    <td>4500.00</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Smith</td>
+                    <td>993498239283</td>
+                    <td>829300.00.00</td>
+                    <td>492382.00</td>
+                    <td>1256</td>
+                    <td>Target reached</td>
+                </tr>
+                <tr>
+                    <td>Jones</td>
+                    <td>888849438292</td>
+                    <td colspan="3" class="suspended">Suspended</td>
+                </tr>
+                <tr>
+                    <td>James</td>
+                    <td>999920392302</td>
+                    <td>77801101.00</td>
+                    <td>882399238298</td>
+                    <td>7781</td>
+                    <td>--</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <table class="table-container">
+        <caption class="table-caption">North</caption>
+        <thead>
+            <tr>
+                <th>Salesman</th>
+                <th>Mobile</th>
+                <th>Actual Sales</th>
+                <th>Expected Sales</th>
+                <th>Returns</th>
+                <th>Remarks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ford</td>
+                <td>889932348922</td>
+                <td>889231.00</td>
+                <td>881001.00</td>
+                <td>4500.00</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td>haber</td>
+                <td>999992938230</td>
+                <td>998823.00</td>
+                <td>489293.00</td>
+                <td>56.00</td>
+                <td>--</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
