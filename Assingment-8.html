@@ -66,30 +66,37 @@
         }
         
         .leftSideImage {
-            background-image: url("images/redBridgeYork.jfif");
+            background-image: url("images/redBridgeYork.jpg");
             height: 300px;
             width: 300px;
             color: #fff;
             background-position: -343px -232px;
             float: left;
+            text-align: left;
+        }
+        
+        .bottomCaption1,
+        .captionmusicbottom {
+            font-size: 20px;
+            margin-left: 10px;
         }
         
         .rightSideImageContainer {
             margin-left: 10px;
             margin-bottom: 10px;
             float: left;
+            text-align: left;
         }
         
         .rightImageTop {
-            background-image: url("images/images.jfif");
+            background-image: url("images/images.jpg");
             width: 300px;
-            height: 130px;
+            height: 140px;
             color: #fff;
         }
         
         .captionmusic {
-            padding-top: 60px;
-            font-size: 30px;
+            padding-top: 55px;
         }
         
         .topCaption1 {
@@ -99,8 +106,86 @@
             font-size: 30px;
         }
         
+        .rightBottom {
+            margin-top: 10px;
+        }
+        
         .rightImagebottom1 {
+            background-image: url("Images/travel\ \(1\).jpg");
+            width: 140px;
+            height: 150px;
+            color: rgb(255, 255, 255);
+            background-position: -60px -178px;
+            float: left;
+        }
+        
+        .captionTravel {
+            margin-top: 80px;
+        }
+        
+        .rightImagebottom2 {
+            background-image: url("images/camera-1868773__340.jpg");
+            background-position: -168px -86px;
+            margin-left: 10px;
+            float: left;
+            width: 149px;
+            height: 150px;
+            color: #fff;
+        }
+        
+        .captionCaptured {
+            margin-top: 80px;
+        }
+        
+        footer {
             clear: both;
+            width: 1200px;
+            height: 530px;
+            margin: auto;
+            margin-bottom: 30px;
+            background-image: linear-gradient(to bottom left, #248ec3, #5ec1c2);
+        }
+        
+        .mainFooterHead {
+            margin: auto;
+            text-align: center;
+            padding-top: 60px;
+            padding-bottom: 20px;
+            width: 450px;
+            color: #fff;
+            line-height: 25px;
+            font-size: 15px;
+        }
+        
+        .footerHeading {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        
+        .block {
+            margin: 20px;
+            margin-top: 10px;
+            text-align: center;
+            width: 280px;
+            float: left;
+            padding: 15px;
+            color: #fff;
+        }
+        
+        .icons {
+            font-size: 30px;
+            border: 2px solid;
+            border-radius: 50px;
+            padding: 15px;
+        }
+        
+        .subHeading {
+            margin: 20px;
+            font-size: 23px;
+        }
+        
+        .blockContainer {
+            margin-left: 60px;
         }
     </style>
 </head>
@@ -136,13 +221,17 @@
                     <div>
                         <div class="rightImageTop">
                             <div class="captionmusic">Music Lover</div>
-                            <div>Application</div>
+                            <div class="captionmusicbottom">Application</div>
                         </div>
                     </div>
-                    <div>
+                    <div class="rightBottom">
                         <div class="rightImagebottom1">
-                            <div>Travel</div>
-                            <div>Illustration</div>
+                            <div class="captionTravel">Travel</div>
+                            <div class="captionmusicbottom">Illustration</div>
+                        </div>
+                        <div class="rightImagebottom2">
+                            <div class="captionCaptured">Captured</div>
+                            <div class="captionmusicbottom">Photos</div>
                         </div>
                     </div>
 
@@ -151,6 +240,37 @@
         </div>
 
     </main>
+
+    <footer>
+        <div class="mainFooterHead">
+            <div class="footerHeading">Our Awesome Services</div>
+            <div>Far far away, behind the word mountaine, far the countries Vokalia and Consonantia, there live the blind texts.</div>
+        </div>
+        <div class="blockContainer">
+            <div class="block">
+                <div><span class="icons material-symbols-outlined">
+                    insights
+                    </span></div>
+                <div class="subHeading">Finance Dashboard</div>
+                <div>Far far away, behind the word mountaine, far the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at thr coast of the Semantics, a large language ocean.</div>
+            </div>
+            <div class="block">
+                <div><span class="icons material-symbols-outlined">
+                    favorite
+                    </span></div>
+                <div class="subHeading">Made with Love</div>
+                <div>Far far away, behind the word mountaine, far the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at thr coast of the Semantics, a large language ocean.</div>
+            </div>
+            <div class="block">
+                <div><span class="icons material-symbols-outlined">
+                    support
+                    </span></div>
+                <div class="subHeading">Help & Support</div>
+                <div>Far far away, behind the word mountaine, far the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at thr coast of the Semantics, a large language ocean.</div>
+            </div>
+        </div>
+        </div>
+    </footer>
 
 
 </body>
